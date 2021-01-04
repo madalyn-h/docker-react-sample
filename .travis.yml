@@ -1,7 +1,7 @@
 language: generic
 sudo: required
 services:
-    -dockerfile
+    -docker
 
 before_install:
   #build docker image
