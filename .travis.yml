@@ -14,6 +14,7 @@ script:
 deploy:
   #Travis CI is preconfigured to deploy to some providers
   provider: elasticbeanstalk
+  edge: true
   region: "us-east-2"
   app: "docker-react-sample"
   env: "DockerReactSample-env"
