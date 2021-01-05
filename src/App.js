@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Production version
+          This change was made on the feature branch.
         </p>
         <a
           className="App-link"
